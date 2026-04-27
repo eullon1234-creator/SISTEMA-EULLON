@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "apps": [
+    {
+      "id": "arquivos",
+      "name": "Arquivos",
+      "iconEmoji": "📁",
+      "type": "internal",
+      "internalId": "files",
+      "fullscreenDefault": false
+    }
+  ]
+}
