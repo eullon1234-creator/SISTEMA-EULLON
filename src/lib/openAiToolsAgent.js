@@ -96,7 +96,7 @@ export const OS_AGENT_TOOLS = [
     function: {
       name: 'os_open_internal',
       description:
-        'Abre um app interno pelo internal_id (ex.: settings, ai-keys, ai-assistant, my-projects, files).',
+        'Abre um app interno pelo internal_id (ex.: settings, ai-keys, ai-assistant, my-projects, notes, files).',
       parameters: {
         type: 'object',
         properties: {

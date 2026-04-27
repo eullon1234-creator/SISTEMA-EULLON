@@ -52,6 +52,14 @@ const BUILTIN_APPS = [
     fullscreenDefault: false,
   },
   {
+    id: 'sys-notes',
+    name: 'Anotações',
+    iconEmoji: '📝',
+    type: 'internal',
+    internalId: 'notes',
+    fullscreenDefault: false,
+  },
+  {
     id: 'balanca-pro-plus',
     name: 'Balança Pro+',
     iconEmoji: '⚖️',

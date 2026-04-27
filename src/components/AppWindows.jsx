@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef } from 'react'
 import { InternalAiAssistant } from './internal/InternalAiAssistant'
 import { InternalAiKeysApp } from './internal/InternalAiKeysApp'
 import { InternalMyProjects } from './internal/InternalMyProjects'
+import { InternalNotes } from './internal/InternalNotes'
 import { LinuxWindowChrome } from './LinuxWindowChrome'
 
 function InternalFilesPlaceholder() {
@@ -52,6 +53,8 @@ function renderInternalContent(internalId) {
       return <InternalAiAssistant />
     case 'my-projects':
       return <InternalMyProjects />
+    case 'notes':
+      return <InternalNotes />
     default:
       return (
         <div className="p-4 text-sm text-slate-400">App interno desconhecido.</div>
