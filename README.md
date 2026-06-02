@@ -1,16 +1,29 @@
-# React + Vite
+# Central de Apps Eullon 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Centralizador de todos os aplicativos Eullon. Hospedado no GitHub Pages.
 
-Currently, two official plugins are available:
+## Como adicionar um app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Edite o arquivo [`apps.json`](apps.json)
+2. Adicione um novo objeto no array `apps`:
 
-## React Compiler
+```json
+{
+  "id": "meu-app",
+  "name": "Meu App",
+  "description": "Descrição do app",
+  "url": "https://meu-app.vercel.app",
+  "icon": "🌟",
+  "category": "Ferramentas",
+  "release_tag": ""
+}
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Commit e push para `main` — o GitHub Pages atualiza automaticamente.
 
-## Expanding the ESLint configuration
+## Releases
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Para cada app que tiver arquivos (binários, instaladores, etc.):
+1. Crie um [GitHub Release](https://github.com/eullon1234-creator/SISTEMA-EULLON/releases)
+2. Coloque o nome da tag no campo `release_tag` do app em `apps.json`
+3. O card do app vai mostrar um botão "⬇ Release" linkando direto para o release

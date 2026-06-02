@@ -1,19 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#2e2e2e" />
-    <meta name="description" content="Eullon GNU/WebOS — área de trabalho na web" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="Eullon GNU" />
-    <link rel="apple-touch-icon" href="/favicon.svg" />
-    <title>Eullon GNU / WebOS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Central de Apps Eullon</title>
+  <meta name="description" content="Central de aplicativos Eullon" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="header-content">
+        <h1>🚀 Central de Apps</h1>
+        <p class="subtitle">Eullon</p>
+      </div>
+      <div class="header-actions">
+        <input type="text" id="searchInput" placeholder="Buscar app..." />
+        <select id="categoryFilter" aria-label="Filtrar por categoria">
+          <option value="all">Todas as categorias</option>
+        </select>
+      </div>
+    </header>
+
+    <main>
+      <div id="loading" class="loading">
+        <div class="spinner"></div>
+        <p>Carregando apps...</p>
+      </div>
+      <div id="error" class="error hidden"></div>
+      <div id="appGrid" class="app-grid hidden"></div>
+      <div id="empty" class="empty hidden">
+        <p>Nenhum app encontrado</p>
+      </div>
+    </main>
+
+    <footer>
+      <p><a href="https://github.com/eullon1234-creator/SISTEMA-EULLON" target="_blank" rel="noopener">GitHub</a> &mdash; <a href="#" id="toggleLayout">Alternar visualização</a></p>
+    </footer>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
 </html>

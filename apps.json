@@ -1,0 +1,61 @@
+{
+  "title": "Central de Apps Eullon",
+  "description": "Todos os meus aplicativos em um só lugar",
+  "github_repo": "eullon1234-creator/SISTEMA-EULLON",
+  "apps": [
+    {
+      "id": "balanca-pro-plus",
+      "name": "Balança Pro+",
+      "description": "Sistema de balança profissional",
+      "url": "https://balanca-pro-plus.vercel.app",
+      "icon": "⚖️",
+      "category": "Ferramentas",
+      "release_tag": ""
+    },
+    {
+      "id": "estoque-uhe-estrela",
+      "name": "Estoque UHE Estrela",
+      "description": "Controle de estoque",
+      "url": "https://eullon1234-creator.github.io/estoque-taboca-app",
+      "icon": "📦",
+      "category": "Ferramentas",
+      "release_tag": ""
+    },
+    {
+      "id": "pizzaria-ramos",
+      "name": "Pizzaria Ramos",
+      "description": "Sistema da Pizzaria Ramos",
+      "url": "https://pizzaria-ramos-lidi.vercel.app",
+      "icon": "🍕",
+      "category": "Comércio",
+      "release_tag": ""
+    },
+    {
+      "id": "dds-almoxarifado",
+      "name": "DDS Almoxarifado",
+      "description": "Diálogo Diário de Segurança",
+      "url": "https://dds-almoxarifado.vercel.app",
+      "icon": "🛡️",
+      "category": "Ferramentas",
+      "release_tag": ""
+    },
+    {
+      "id": "historia-2026-games",
+      "name": "História 2026 Games",
+      "description": "Jogos educativos de história",
+      "url": "https://historia-2026-games.vercel.app",
+      "icon": "🎮",
+      "category": "Educação",
+      "release_tag": ""
+    },
+    {
+      "id": "gerador-kpi",
+      "name": "KPI Master",
+      "description": "Gerador de indicadores KPI",
+      "url": "https://gerador-de-kpi.vercel.app",
+      "icon": "📊",
+      "category": "Ferramentas",
+      "release_tag": ""
+    }
+  ]
+}
